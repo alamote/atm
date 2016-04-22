@@ -1,4 +1,4 @@
-
+﻿
 
 
 <?php
@@ -6,17 +6,30 @@
 include_once("php/classes/Card.php");
 include_once("php/classes/Client.php");
 
-echo "<center>Hi, this is atm's main page!" . "<br>" . "Use this commands to work whis atm:" . "<br>" . "<br>" . "
+echo "<center>Привет, это главная страница!" . "<br>" . "Используйте эти GET-запросы для работы с банкоматом:</center>" . "<br>" . "<br>" . "
 
+<link rel='stylesheet' href='./css/style.css' type='text/css'>
+<div id='commands'>
+																										
+?type=auth&num=[CARD_NUMBER]&pin=[PIN_CODE]  									" . "<br>" . "
+?sid=[SID]&bal= 							" . "<br>" . "
+?sid=[SID]&chgpin=[NEW_PIN] 							" . "<br>" . "
+?sid=[SID]&withdraw=[SUM]								" . "<br>" . "
+?sid=[SID]&refill=[SUM] 							" . "<br>" . "
+?sid=[SID]&transfer=[SUM]&dest=[DESTINATION_CARD_NUMBER] 	" . "<br>" . "
+?sid=[SID]&end=						" . "</div>
 
-																										" . "<br>" . "
-?type=auth&num=[CARD_NUMBER]&pin=[PIN_CODE] ................,,, Логин									" . "<br>" . "
-?sid=[SID]&bal= ...............................................	Проверить баланс						" . "<br>" . "
-?sid=[SID]&chgpin=[NEW_PIN] ...................................	Сменить PIN-код							" . "<br>" . "
-?sid=[SID]&withdraw=[SUM] .....................................	Снять наличные							" . "<br>" . "
-?sid=[SID]&refill=[SUM] .......................................	Пополнить счет							" . "<br>" . "
-?sid=[SID]&transfer=[SUM]&dest=[DESTINATION_CARD_NUMBER] ......	Перевести средства на другую карту		" . "<br>" . "
-?sid=[SID]&end=	............................................... Закончить сессию						" . "<br></center>";
+<div id='comments'>
+	Логин" . "<br>" . "
+	Проверить баланс" . "<br>" . "
+	Сменить PIN-код" . "<br>" . "
+	Снять наличные" . "<br>" . "
+	Пополнить счет	" . "<br>" . "
+	Перевести средства на другую карту	" . "<br>" . "
+	Закончить сессию	" . "<br>" . "
+</div>
+
+";
 
 
 /*

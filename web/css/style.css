@@ -11,3 +11,13 @@
         border: solid 1px #000;
         text-align: center;
     }
+	#commands {
+		position: absolute;
+		top: 200px;
+		left: 300px;
+	}
+	#comments {
+		position: absolute;
+		top: 200px;
+		left: 800px;
+	}
