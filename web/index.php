@@ -6,7 +6,7 @@
 include_once("php/classes/Card.php");
 include_once("php/classes/Client.php");
 
-echo "Hi, this is atm's main page!" . "<br>" . "Use this commands to work whis atm:" . "<br>";
+echo "Hi, this is atm's main page!" . "<br>" . "Use this commands to work whis atm:" . "<br>" . "
 
 
 /*
@@ -19,9 +19,10 @@ echo "Hi, this is atm's main page!" . "<br>" . "Use this commands to work whis a
  * ?sid=[SID]&end=												Закончить сессию
  
  sadasdas
+ asdasd
  
  
- * */
+ * */ ";
 
 
 /*

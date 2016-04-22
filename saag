@@ -1,0 +1,89 @@
+[33mcommit 86c2217deb2de58ef1725533f182f79ad67f4c7b[m
+Author: AlaMote <sergunie@gmail.com>
+Date:   Fri Apr 22 16:14:06 2016 +0300
+
+    't'
+
+[33mcommit 35bffcf9bdf49489a6852e49a06774802395c975[m
+Author: AlaMote <sergunie@gmail.com>
+Date:   Fri Apr 22 13:24:37 2016 +0300
+
+    Delete Card.php
+
+[33mcommit 1056a0b53e06c6995f2e14b0d2fbeadb12248dbd[m
+Author: AlaMote <sergunie@gmail.com>
+Date:   Fri Apr 22 13:24:31 2016 +0300
+
+    Delete Client.php
+
+[33mcommit 4e6b0c01d7c3ef3d38af59bf6209e22b5220cddd[m
+Author: AlaMote <sergunie@gmail.com>
+Date:   Fri Apr 22 13:24:20 2016 +0300
+
+    Delete fill_avaliable.php
+
+[33mcommit 45ff17237dec22e54fe3551a289cbd89bbbd3de3[m
+Author: AlaMote <sergunie@gmail.com>
+Date:   Fri Apr 22 13:24:15 2016 +0300
+
+    Delete generate_card_nums.php
+
+[33mcommit 25131d62f1f542fa25c1dffd99e72bf1284f5b06[m
+Author: AlaMote <sergunie@gmail.com>
+Date:   Fri Apr 22 13:24:10 2016 +0300
+
+    Delete fill_validity_period.php
+
+[33mcommit 56d761c68cc48784a3af87a7be2b5dfc2f0e2c06[m
+Author: AlaMote <sergunie@gmail.com>
+Date:   Fri Apr 22 13:24:06 2016 +0300
+
+    Delete cards_list.php
+
+[33mcommit c079c44c82dff8162e3bb1bb070702dd1c913c7a[m
+Author: AlaMote <sergunie@gmail.com>
+Date:   Fri Apr 22 13:23:55 2016 +0300
+
+    Delete ChromePhp.php
+
+[33mcommit de69db12618a9d9551f18d8b23aa18e592a8e0b8[m
+Author: AlaMote <sergunie@gmail.com>
+Date:   Fri Apr 22 13:23:47 2016 +0300
+
+    Delete connectDB.php
+
+[33mcommit 52e2445bccac0ccd4dedbeb0a9ff75ffc224f561[m
+Author: AlaMote <sergunie@gmail.com>
+Date:   Fri Apr 22 13:23:42 2016 +0300
+
+    Delete getBalance.php
+
+[33mcommit ad85f85d896342ede88ba4104feea4d43ef7b774[m
+Author: AlaMote <sergunie@gmail.com>
+Date:   Fri Apr 22 13:23:24 2016 +0300
+
+    Delete style.css
+
+[33mcommit 4b6363a9a74781d417da1454471ad716c06b0354[m
+Author: AlaMote <sergunie@gmail.com>
+Date:   Fri Apr 22 13:23:08 2016 +0300
+
+    Delete index.php
+
+[33mcommit a32a4360264f30035dc2212cbecf63ce7b069d19[m
+Author: AlaMote <sergunie@gmail.com>
+Date:   Fri Apr 22 13:19:55 2016 +0300
+
+    Added files via upload
+
+[33mcommit 9f5828c07ec49f9990ee75524f9b2d3d67b7d2f9[m
+Author: AlaMote <sergunie@gmail.com>
+Date:   Fri Apr 22 13:01:32 2016 +0300
+
+    Added files via upload
+
+[33mcommit 9329333114d16fc20051cee74e061e711fb5fed2[m
+Author: AlaMote <sergunie@gmail.com>
+Date:   Fri Apr 22 12:58:30 2016 +0300
+
+    Initial commit
