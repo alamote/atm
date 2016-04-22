@@ -6,7 +6,7 @@
 include_once("php/classes/Card.php");
 include_once("php/classes/Client.php");
 
-echo "<center>Привет, это главная страница!" . "<br>" . "Используйте эти GET-запросы для работы с банкоматом:</center>" . "<br>" . "<br>" . "
+/*echo "<center>Привет, это главная страница!" . "<br>" . "Используйте эти GET-запросы для работы с банкоматом:</center>" . "<br>" . "<br>" . "
 
 <link rel='stylesheet' href='./css/style.css' type='text/css'>
 <div id='commands'>
@@ -30,6 +30,9 @@ echo "<center>Привет, это главная страница!" . "<br>" . 
 </div>
 
 ";
+	include_once('./php/scripts/clear_page.php');
+
+*/
 
 
 /*
@@ -38,7 +41,7 @@ echo "<center>Привет, это главная страница!" . "<br>" . 
 
 if ($_GET['type'] == 'auth' && isset($_GET['num']) && isset($_GET['pin'])) {
 	
-	include_once('./php/scripts/clear_page.php');
+	//include_once('./php/scripts/clear_page.php');
 	
 	
     $card = new Card($_GET['num'], "");
