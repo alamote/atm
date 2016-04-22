@@ -11,6 +11,8 @@
         $user = "bfcb66f2c460d7";
         $password = "df4f0bec";
         $db_name = "heroku_3b707b6bd40ec3f";
+		
+		echo "OK";
     }
 
     $sql = new mysqli($host, $user, $password, $db_name);
