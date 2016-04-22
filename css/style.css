@@ -1,0 +1,13 @@
+
+    table {
+        border: solid 1px #000;
+        text-align: center;
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    td {
+
+        border: solid 1px #000;
+        text-align: center;
+    }
