@@ -6,22 +6,18 @@
 include_once("php/classes/Card.php");
 include_once("php/classes/Client.php");
 
-echo "Hi, this is atm's main page!" . "<br>" . "Use this commands to work whis atm:" . "<br>" . "
+echo "Hi, this is atm's main page!" . "<br>" . "Use this commands to work whis atm:" . "<br>" . "<br>" . "
 
 
-/*
- * ?type=auth&num=[CARD_NUMBER]&pin=[PIN_CODE]                  Логин
- * ?sid=[SID]&bal=                                              Проверить баланс
- * ?sid=[SID]&chgpin=[NEW_PIN]                                  Сменить PIN-код
- * ?sid=[SID]&withdraw=[SUM]                                   	Снять наличные
- * ?sid=[SID]&refill=[SUM]                                     	Пополнить счет
- * ?sid=[SID]&transfer=[SUM]&dest=[DESTINATION_CARD_NUMBER]    	Перевести средства на другую карту
- * ?sid=[SID]&end=												Закончить сессию
- 
- sadasdas
- asdasd
- 
- 
+/*																										" . "<br>" . "
+ * ?type=auth&num=[CARD_NUMBER]&pin=[PIN_CODE]                  Логин									" . "<br>" . "
+ * ?sid=[SID]&bal=                                              Проверить баланс						" . "<br>" . "
+ * ?sid=[SID]&chgpin=[NEW_PIN]                                  Сменить PIN-код							" . "<br>" . "
+ * ?sid=[SID]&withdraw=[SUM]                                   	Снять наличные							" . "<br>" . "
+ * ?sid=[SID]&refill=[SUM]                                     	Пополнить счет							" . "<br>" . "
+ * ?sid=[SID]&transfer=[SUM]&dest=[DESTINATION_CARD_NUMBER]    	Перевести средства на другую карту		" . "<br>" . "
+ * ?sid=[SID]&end=												Закончить сессию						" . "<br>" . "
+  
  * */ ";
 
 
