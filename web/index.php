@@ -17,6 +17,10 @@ echo "Hi, this is atm's main page!" . "<br>" . "Use this commands to work whis a
  * ?sid=[SID]&refill=[SUM]                                     	Пополнить счет
  * ?sid=[SID]&transfer=[SUM]&dest=[DESTINATION_CARD_NUMBER]    	Перевести средства на другую карту
  * ?sid=[SID]&end=												Закончить сессию
+ 
+ 
+ 
+ qwewew
  * */
 
 
