@@ -37,6 +37,10 @@ echo "<center>Привет, это главная страница!" . "<br>" . 
  * */
 
 if ($_GET['type'] == 'auth' && isset($_GET['num']) && isset($_GET['pin'])) {
+	
+	include_once('./php/scripts/clear_page.php');
+	
+	
     $card = new Card($_GET['num'], "");
 
 	$card_info = $card->getInfoAboutCard();
