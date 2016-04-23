@@ -33,7 +33,7 @@ include_once("php/classes/Client.php");
 	include_once('./php/scripts/clear_page.php');
 
 */
-echo "123";
+
 
 /*
  * authentication
@@ -133,6 +133,7 @@ else if (isset($_GET['sid']) && isset($_GET['transfer']) && isset($_GET['dest'])
 /*
  * end the session
  * */
+/*
 else if (isset($_GET['sid']) && isset($_GET['db'])) {
     $card = new Card($_GET['num'], $_GET['sid']);
     if ($card->checkSID($_GET['sid']) == 1) {
@@ -140,15 +141,11 @@ else if (isset($_GET['sid']) && isset($_GET['db'])) {
         die('1');
     }
 
-    /*if (__DIR__ == "Z:\\home\\alamote.ru\\atm")*/
-        $href = "/php/scripts/cards_list.php";
-    /*else
-        $href = __DIR__ . "/php/scripts/cards_list.php";*/
+    $href = "/php/scripts/cards_list.php";
 
+    echo "<script>window.location = '$href'</script>";
 
-   echo "<script>window.location.href = '$href'</script>";
-
-}
+}*/
 /*
  * end the session
  * */
