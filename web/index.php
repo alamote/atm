@@ -128,7 +128,7 @@ else if (isset($_GET['sid']) && isset($_GET['transfer']) && isset($_GET['dest'])
 /*
  * end the session
  * */
-/*
+
 else if (isset($_GET['sid']) && isset($_GET['db'])) {
     $card = new Card($_GET['num'], $_GET['sid']);
     if ($card->checkSID($_GET['sid']) == 1) {
@@ -140,7 +140,7 @@ else if (isset($_GET['sid']) && isset($_GET['db'])) {
 
     echo "<script>window.location = '$href'</script>";
 
-}*/
+}
 /*
  * end the session
  * */
