@@ -1,8 +1,14 @@
-<link rel="stylesheet" href="../../css/style.css" type="text/css">
+
 
 <?php
 
-    include_once('../connectDB.php');
+   /* if (__DIR__ == "Z:\\home\\alamote.ru\\atm\\php\\scripts")
+        $href = */
+
+    echo '<link rel="stylesheet" href="../../css/style.css" type="text/css">';
+
+
+    include_once('../connect_db.php');
 
     $num_query = "SHOW COLUMNS FROM cards";
     $res_num = $sql->query($num_query) or die($this->sql->error);
