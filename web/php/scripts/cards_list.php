@@ -1,12 +1,7 @@
 
+<link rel="stylesheet" href="../../css/style.css" type="text/css">
 
 <?php
-
-   /* if (__DIR__ == "Z:\\home\\alamote.ru\\atm\\php\\scripts")
-        $href = */
-
-    echo '<link rel="stylesheet" href="../../css/style.css" type="text/css">';
-
 
     include_once('../connect_db.php');
 

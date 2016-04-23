@@ -130,7 +130,7 @@ else if (isset($_GET['sid']) && isset($_GET['transfer']) && isset($_GET['dest'])
  * */
 
 else if (isset($_GET['db'])) {
-    
+
     $href = "/php/scripts/cards_list.php";
 
     echo "<script>window.location = '$href'</script>";
