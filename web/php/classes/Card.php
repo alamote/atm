@@ -340,7 +340,7 @@ class Card
      * end the session
      * */
     function endSession () {
-        $query = "UPDATE ". $this->table_name ." SET `SID` = 0 WHERE `Card_Number` = ". $this->card_number;
+        $query = "UPDATE ". $this->table_name ." SET `SID` = '' WHERE `Card_Number` = ". $this->card_number;
         $this->sql->query($query) or die(1);
 
         return 0;
