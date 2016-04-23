@@ -33,7 +33,7 @@ include_once("php/classes/Client.php");
 	include_once('./php/scripts/clear_page.php');
 
 */
-
+echo "123";
 
 /*
  * authentication
