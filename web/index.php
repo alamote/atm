@@ -30,7 +30,6 @@ include_once("php/classes/Client.php");
 </div>
 
 ";
-	include_once('./php/scripts/clear_page.php');
 
 */
 
@@ -40,14 +39,10 @@ include_once("php/classes/Client.php");
  * */
 
 if ($_GET['type'] == 'auth' && isset($_GET['num']) && isset($_GET['pin'])) {
-	
-	//include_once('./php/scripts/clear_page.php');
-	
-	
+
     $card = new Card($_GET['num'], "");
 
 	$card_info = $card->getInfoAboutCard();
-
 
     if ($card_info['Blocked'] == 1) {
          

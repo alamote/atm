@@ -44,10 +44,10 @@ class Card
             $db_name = $db;
         }
         else {
-            $host = "sql304.byethost10.com";
-            $user = "b10_16828832";
-            $password = "AlaMote_12";
-            $db_name = "b10_16828832_atm";
+            $host = "us-cdbr-iron-east-03.cleardb.net";
+            $user = "bfcb66f2c460d7";
+            $password = "df4f0bec";
+            $db_name = "heroku_3b707b6bd40ec3f";
         }
 
         $this->sql = new mysqli($host, $user, $password, $db_name);
