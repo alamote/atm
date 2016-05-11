@@ -38,6 +38,14 @@ include_once("php/classes/Client.php");
  * authentication
  * */
 
+if (!isset($_GET['type']) && !isset($_GET['sid'])) {
+    
+    echo "<link rel=\"stylesheet\" href=\"./css/style.css\" type=\"text/css\">";
+    echo "<script src='https://code.jquery.com/jquery-2.2.3.min.js'></script>";
+    echo "<img id='bg' src='http://savepic.su/7263652.png'>";
+}
+
+
 if ($_GET['type'] == 'auth' && isset($_GET['num']) && isset($_GET['pin'])) {
 
     $card = new Card($_GET['num'], "");
